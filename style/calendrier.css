@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background-color: #F5F5F5;
+} 
+
+h1, p, a, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.calendrier {
+  font-family: 'Roboto', sans-serif;
+  width: 92.5%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#bouton_ajouter {
+  background-color: #1d428a;
+  border: 1px solid #1d428a;
+  color: white;
+  text-decoration: none;
+  font-size: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#bouton_ajouter:hover {
+  color: #1d428a;
+  background-color: white;
+}
+
+.calendrier table {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#td_bold td {
+  font-weight: bold;
+}
+
+.calendrier th,
+.calendrier td {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+.calendrier th {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1D428A;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.calendrier td {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.calendrier td.btn {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.calendrier td.btn input {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1D428A;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.calendrier td.btn input:hover {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1d428a;
+}
+
+.calendrier a {
+  transition: 0.2s
+}
+
+.calendrier a:link {
+  color: #1d428a;
+}
+
+.calendrier a:visited {
+  color: #1d428a;
+}
+
+.calendrier a:hover {
+  color: #FFC600;
+}

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #111;
+    background-color: #F5F5F5;
+}
+
+.formulaire {
+    font-family: 'Roboto', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 20px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire h2 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+    color: #1d428a;
+}
+
+.formulaire label {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.formulaire input[type="text"],
+.formulaire input[type="date"],
+.formulaire input[type="time"] {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.formulaire input[type="password"] {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#bouton_submit {
+    background-color: #1d428a;
+    border: 1px solid #1d428a;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    padding: 3%;
+    padding-left: 9%;
+    padding-right: 9%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#bouton_submit:hover {
+    color: #1d428a;
+    background-color: white;
+}

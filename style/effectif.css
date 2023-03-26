@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #F5F5F5;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+}
+
+h1, p, a, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+#bouton_ajouter {
+    background-color: #1d428a;
+    border: 1px solid #1d428a;
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    margin-top: 2%;
+    margin-left: 4%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#bouton_ajouter:hover {
+    color: #1d428a;
+    background-color: white;
+}
+
+#tableau_joueur {
+    border-top: 1px solid black;
+    width: 92.5%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.carte_joueur {
+    border-radius: 2%;
+    flex-basis: 30.5%;
+    padding: 1.25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.carte_joueur:hover {
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+.carte_joueur img {
+    height: auto; /* La hauteur de l'image sera automatiquement ajustée en fonction de la largeur de l'image */
+    width: 100%; /* La largeur de l'image sera égale à la largeur de son conteneur */
+    max-width: 100%; /* La largeur de l'image ne dépassera pas la largeur de son conteneur */
+    border-bottom: solid #1d428a;
+}
+
+.carte_joueur p {
+    text-align: center;
+}
+
+.bouton_action{
+    margin: auto;
+    width: 60%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.prenom {
+    font-weight: 500;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+.nom {
+    font-size: large;
+    font-weight: bold;
+    color: #1d428a;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.info_joueur {
+    margin: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+    font-size: medium;
+    width: 80%;
+}
+
+.bouton_action a {
+    background-color: #1d428a;
+    border: 1px solid #1d428a;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 4%;
+    padding-left: 5%;
+    padding-right: 6%;
+}
+
+.bouton_action a:hover {
+    color: #1d428a;
+    background-color: white;
+}
